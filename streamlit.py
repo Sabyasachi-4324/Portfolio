@@ -218,7 +218,7 @@ if navigation == "Projects":
         st.markdown(f"[{cards[2]['title']}]({cards[2]['link']})")
 
     if st.button("Learn More..."):
-        url = "https://github.com/ahmetdzdrr"
+        url = "https://www.linkedin.com/in/sabyasachi-mohanty-42234528b/"
         js = f'window.open("{url}", "_blank").then(r => window.parent.location.href);'
         st_javascript(js)
 
