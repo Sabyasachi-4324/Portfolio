@@ -243,7 +243,7 @@ if navigation == "Competitions":
     cards = [
     {
         "title": "Kaggle ML Challenge",
-        "image": "images/kaggle.jpg",
+        "image": "images/kaggle.png",
         "link": ""
     },
     {
