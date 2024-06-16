@@ -104,7 +104,7 @@ if navigation == "Home":
     st.markdown("""
         <style>
                 img {
-                    margin-top: 70px;
+                    margin-top: 50px;
                     border-radius: 50%;
                     width: 300px;
                 }
