@@ -54,7 +54,7 @@ with st.sidebar:
     """
     <div style="background-color: transparent; margin-top: 150px; text-align: center;">
         <p style="font-size: 15px; font-weight: bold">
-            &copy; 2024 Ahmet Dizdar. All Rights Reserved.
+            &copy; 2024 Sabyasachi Mohanty. All Rights Reserved.
         </p>
     </div>
     """,
@@ -90,9 +90,9 @@ if navigation == "Home":
     typewrite_txt = typewrite(text)
     components.html(typewrite_txt, height=40)
 
-    about = """I am Ahmet Dizdar, a highly motivated and detail-oriented individual with a strong foundation in Computer Engineering, having graduated from Abant Izzet Baysal University. 
+    about = """I am Sabyasachi Mohanty, a highly motivated and detail-oriented individual with a strong foundation in Computer Engineering, having MCA graduated from ITER, S'O'A University. 
     My passion lies in the vast and evolving realm of artificial intelligence. In addition to my academic background, 
-    I have honed my skills in various domains, including data analysis, machine learning, deep learning, and web development.
+    I have honed my skills in various domains, including C, Java, Machine Learning, Deep Learning, and web development.
     """
     typewrite_abt = typewrite(about)
     col1, col2 = st.columns(2)
@@ -121,13 +121,13 @@ if navigation == "Home":
 if navigation == "Skills":
 
     skills = {
-    "Python": 80,
-    "Data Analysis": 80,
+    "Java": 80,
+    "C": 60,
     "Visualization": 85,
     "Machine Learning": 75,
     "Deep Learning": 70,
     "SQL": 70,
-    "Flask": 80,
+    "Python": 80,
     "HTML": 85,
     "CSS": 75,
     "Javascript": 60,
@@ -186,14 +186,14 @@ if navigation == "Projects":
 )
     cards = [
     {
-        "title": "Gemini Pro ChatBot AI Assistant",
-        "image": "images/gemini.jpg",
-        "link": "https://github.com/ahmetdzdrr/gemini-pro-chatbot"
+        "title": "Plant Disease Prediction",
+        "image": "images/plant.png",
+        "link": "https://plant-disease-prediction-using-cnn.streamlit.app/"
     },
     {
-        "title": "Apple Stock Price Forecasting",
-        "image": "images/apple.jpg",
-        "link": "https://github.com/ahmetdzdrr/Apple-Stock-Price-Forecasting"
+        "title": "Car Drive-train Prediction",
+        "image": "images/car.jpg",
+        "link": ""
     },
     {
         "title": "Electricity Demand Forecasting",
@@ -242,9 +242,9 @@ if navigation == "Competitions":
 )
     cards = [
     {
-        "title": "Is Bankasi ML Challenge",
-        "image": "images/isbankasi.jpg",
-        "link": "https://github.com/ahmetdzdrr/gemini-pro-chatbot"
+        "title": "Kaggle ML Challenge",
+        "image": "images/kaggle.jpg",
+        "link": ""
     },
     {
         "title": "BTK Academy Datathon",
@@ -268,7 +268,7 @@ if navigation == "Contact":
     st.write("### :mailbox_closed: Get In Touch With Me!")
 
     contact_form = """
-    <form action="https://formsubmit.co/a.dizdar00@gmail.com" method="POST">
+    <form action="https://formsubmit.co/mohanty.sabyasachi16@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
@@ -282,17 +282,17 @@ if navigation == "Contact":
     {
         "title": "Linkedin",
         "image": "images/linkedin.png",
-        "link": "https://www.linkedin.com/in/ahmet-dizdarr/"
+        "link": "https://www.linkedin.com/in/sabyasachi-mohanty-42234528b/"
     },
     {
         "title": "GitHub",
         "image": "images/github.png",
-        "link": "https://github.com/ahmetdzdrr"
+        "link": "https://github.com/Sabyasachi-4324"
     },
     {
         "title": "Kaggle",
         "image": "images/kaggle.png",
-        "link": "https://www.kaggle.com/ahmetdzdar"
+        "link": "https://www.kaggle.com/calumdemon"
     },
 ]
 
