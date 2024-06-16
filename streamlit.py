@@ -187,7 +187,7 @@ if navigation == "Projects":
     cards = [
     {
         "title": "Plant Disease Prediction",
-        "image": "images/plant.png",
+        "image": "images/plant.jpeg",
         "link": "https://plant-disease-prediction-using-cnn.streamlit.app/"
     },
     {
