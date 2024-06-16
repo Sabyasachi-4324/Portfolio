@@ -97,7 +97,7 @@ if navigation == "Home":
     typewrite_abt = typewrite(about)
     col1, col2 = st.columns(2)
 
-    profile = Image.open("images/profile.png")
+    profile = Image.open("images/profile.jpg")
     
     time.sleep(2)
 
